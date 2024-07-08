@@ -11,11 +11,16 @@ public class ClassA {
 		System.out.println("employee designation is:software tester");
 
 	}
+	 private void empaddress() {
+		System.out.println("employee address is:mugalivakkam");
+
+	}
 	 public static void main(String[] args) {
 		 ClassA a=new ClassA();
 		 a.empid();
 		 a.empname();
 		 a.empdesignation();
+		 a.empaddress();
 		
 	}
 
