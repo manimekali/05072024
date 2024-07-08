@@ -9,14 +9,18 @@ public class ClassA {
 		}
 	 private void empdesignation() {
 		System.out.println("employee designation is:software tester");
+	 }
+  private void empmobile() {
+	System.out.println("employee mobile number is:7448863673");
 
-	}
+}
+	
 	 public static void main(String[] args) {
 		 ClassA a=new ClassA();
 		 a.empid();
 		 a.empname();
 		 a.empdesignation();
-		
+		a.empmobile();
 	}
 
 }
